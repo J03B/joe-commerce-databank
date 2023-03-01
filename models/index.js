@@ -31,12 +31,16 @@ Tag.belongsToMany(Product, {
 
 Product.hasMany(ProductTag, {
   foreignKey: 'product_id',
+  onDelete: 'CASCADE',
+  onUpdate: 'CASCADE',
 });
 ProductTag.belongsTo(Product, {
   foreignKey: 'product_id',
 });
 Tag.hasMany(ProductTag, {
   foreignKey: 'tag_id',
+  onDelete: 'CASCADE',
+  onUpdate: 'CASCADE',
 });
 ProductTag.belongsTo(Tag, {
   foreignKey: 'tag_id',
