@@ -23,7 +23,7 @@ This application utilizes a SQL database to track store information. It can be u
 The screenshot below shows the deployed Command Line Interface, followed by the demo .mp4 which shows it's various levels of functionality.
 [![An example of the deployed tool with a sample output already displayed.](./assets/mockup-demo.png)](./assets/mockup-demo.png)
 
-[![A full video demonstration of the app's numerous levels of functionality.](./assets/staffer-tracker-demo.mp4)](./assets/joe-commerce-demo.mp4)
+[![A full video demonstration of the app's numerous levels of functionality.](./assets/joe-commerce-demo.mp4)](./assets/joe-commerce-demo.mp4)
 
 
 ### Task Completed
